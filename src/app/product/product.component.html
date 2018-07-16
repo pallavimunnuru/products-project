@@ -1,0 +1,9 @@
+<button routerLink='../addingNew' pButton type="button" label="AddNew"></button>
+ <div class="ui-g">
+ 
+ <div class="ui-g-3" [ngClass]="['blocks']" *ngFor="let prods of pro">
+          {{prods|json}}
+     
+        </div>
+ </div>
+ <router-outlet></router-outlet>

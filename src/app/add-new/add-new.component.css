@@ -1,0 +1,30 @@
+
+.outLook{
+
+background-color: #061722;
+height: 400px;
+margin-top: -250px;
+width: 70%;
+border:15px solid #921632;
+color: white
+
+
+}
+.classOne{
+height: 28px;
+border-radius: 3px;
+background-color: white;
+outline-color: none;
+border:none;
+font-size:small
+
+}
+
+.classO {
+  width: 15%;
+  height: 40px;
+  background-color: #b8b8db;
+  font-size: 10px;
+  margin-top: 40px
+
+}

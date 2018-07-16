@@ -1,0 +1,12 @@
+.blocks{
+border:1px solid black;
+padding:20px;
+margin:10px;
+width: 20%
+}
+.blocks:hover{
+
+    background-color: black;
+    color: white;
+    
+}

@@ -1,0 +1,46 @@
+<div class="outLook">
+  <div class="ui-g">
+    <div class="ui-g-2"></div>
+    <div class="ui-g-10">
+      <div class="ui-grid ui-grid-responsive ui-fluid">
+        <div class="ui-grid-row">
+          <div class="ui-grid-col-4">
+            <p><small>Product Name</small></p>
+            <input [ngClass]="['classOne']" type="text" size="30" pInputText [(ngModel)]="ProductInformation.name" [ngModelOptions]="{standalone: true}"
+              placeholder="name">
+          </div>
+        </div>
+        <div class="ui-grid-col-1"></div>
+        <div class="ui-grid-col-4">
+          <p> <small>Product Description</small></p>
+          <input [ngClass]="['classOne']" type="text" size="30" pInputText [(ngModel)]="ProductInformation.description" [ngModelOptions]="{standalone: true}"
+            placeholder="description">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui-g">
+    <div class="ui-g-2"></div>
+    <div class="ui-g-10">
+      <div class="ui-grid ui-grid-responsive ui-fluid">
+        <div class="ui-grid-row">
+          <div class="ui-grid-col-4">
+            <p><small>ManufactureDate</small></p>
+            <p-calendar [(ngModel)]="ProductInformation.manufactureDate" [showIcon]="true" placeholder="ManufactureDate"></p-calendar>
+          </div>
+          <div class="ui-grid-col-1"></div>
+          <div class="ui-grid-col-4">
+            <p><small>ExpiryDate</small></p>
+            <p-calendar [(ngModel)]="ProductInformation.expiryDate" [showIcon]="true" placeholder="ExpiryDate"></p-calendar>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+<div class="ui-g">
+  <div class="ui-g-4"></div>
+  <button [ngClass]="['classO']" (click)="save()" pButton type="button" label="save"></button>
+</div>
+</div>
